@@ -1,0 +1,14 @@
+# Data: downloaded by download_data.py, not committed. Delete this line if the
+# licence permits including the data and you choose to commit it (see README).
+data/*.dta
+data/*.part
+
+# Executed notebook copies written by reproduce.py
+output/executed/
+
+# Environment and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
